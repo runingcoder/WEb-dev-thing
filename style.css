@@ -37,12 +37,16 @@ p {
 }
 .section-title {
 	font-size: 4rem;
-	font-weight: 300;
+	font-weight: 300px;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
+}
+.section-title p{
+	font-weight: 800px;
+
 }
 .section-title span {
 	color: cyan;
@@ -366,7 +370,7 @@ p {
 	border-radius: 10px;
 }
 #projects .project-info {
-	padding: 30px;
+	padding: 10px;
 	flex-basis: 50%;
 	height: 100%;
 	display: flex;
@@ -374,20 +378,25 @@ p {
 	justify-content: center;
 	flex-direction: column;
 
-  background-image: url("backg.jpg");
+background-color: #00b38f;
   background-size: cover;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
-	font-weight: 500;
+	font-weight: 1000;
+	padding-top: 10px;
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
-	font-weight: 500;
+	font-weight: 1900;
 	margin-top: 10px;
 }
 #projects .project-info p {
-	color: white;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	font-weight: 700;
 }
 #projects .project-img {
 	flex-basis: 48%;
@@ -596,6 +605,7 @@ z-index: -1;
 	}
 	h1.section-title {
 		font-size: 6rem;
+
 	}
 
 	/* Hero */
